@@ -4,13 +4,13 @@ An extension of the emodipt theme which adds the python virtual environment to t
 ## How to use in Ubuntu/WSL
 Add this to your ~/.bashrc file:
 ```
-eval "$(oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/python-emodipt-extend.omp.json')"
+eval "$(oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
 ```
 
 If you get an error with the path, use `which oh-my-posh` to find the path of oh-my-posh and replace oh-my-posh with the path to it. For example:
 
 ```
-eval "$(/home/ekj/.local/bin/oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/python-emodipt-extend.omp.json')"
+eval "$(/home/ekj/.local/bin/oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
 ```
 
 ## Example
