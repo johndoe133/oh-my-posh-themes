@@ -90,7 +90,7 @@
           {
             "foreground": "#b99abe",
             "properties": {
-              "style": "full"
+              "style": "Agnoster Short"
             },
             "style": "plain",
             "template": "\ue5ff {{ .Path }}",
