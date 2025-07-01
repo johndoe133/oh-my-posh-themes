@@ -90,7 +90,8 @@
           {
             "foreground": "#b99abe",
             "properties": {
-              "style": "agnoster_short"
+              "style": "agnoster_left",
+              "folder_icon": "\udb83\uddcf"
             },
             "style": "plain",
             "template": "\ue5ff {{ .Path }}",
