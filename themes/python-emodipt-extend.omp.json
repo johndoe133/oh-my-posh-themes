@@ -20,13 +20,13 @@
             "foreground": "#E06C75",
             "properties": {
               "mapped_shell_names": {
-                "pwsh": "Shell",
-                "powershell": "Shell",
-                "cmd": "Cmd",
-                "bash": "Bash"
+                "pwsh": "\ue795 Shell",
+                "powershell": "\ue795 Shell",
+                "cmd": "\uebc4 Cmd",
+                "bash": "\ue760 Bash"
               }
             },
-            "template": " \ue795 {{ .Name }}"
+            "template": " {{ .Name }}"
           },
           {
             "type": "python",
@@ -88,13 +88,21 @@
         "newline": true,
         "segments": [
           {
+            "type": "os",
+            "style": "plain",
+            "foreground": "#b99abe",
+            "template": "{{.Icon}}",
+            "properties": {
+            }
+          },
+          {
             "foreground": "#b99abe",
             "properties": {
               "style": "agnoster",
               "folder_icon": "\udb83\uddcf"
             },
             "style": "plain",
-            "template": "\ue5ff {{ .Path }}",
+            "template": " {{ .Path }}",
             "type": "path"
           }
         ],
