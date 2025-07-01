@@ -1,9 +1,14 @@
 # Intro
 This is just a repo for myself to save the themes that I make and remember how I use oh-my-posh in WSL and windows terminal and vscode. 
 
-## Themes
+# Looks
+It will look like this:
+![image](https://github.com/user-attachments/assets/5f6ae0a9-0bc7-4b39-b417-0f3e9de16187)
 
-### python-emodipt-extend
+
+# Themes
+
+## python-emodipt-extend
 An extension of the emodipt theme which adds the the following things to the prompt:
 - Python virtual environment in official python blue
 - Changed path to a lavender due to color clash with python virtual environment
@@ -54,8 +59,5 @@ Consolas, 'Courier New', monospace,  'JetBrainsMono Nerd Font Mono'
 
 ### Using a nerd font in windows terminal
 Change the font face by going to settings, click on defaults, and change the font face to "JetBrainsMono Nerd Font Mono"
-
-## Example
-![image](https://github.com/user-attachments/assets/a4dce585-a27d-4ff2-9b02-2b1718c04836)
 
 
