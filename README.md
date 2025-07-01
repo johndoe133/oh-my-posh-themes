@@ -1,4 +1,5 @@
-# oh-my-posh-themes
+# Intro
+This is just a repo for myself to save the themes that I make and remember how I use oh-my-posh in WSL and windows terminal and vscode. 
 An extension of the emodipt theme which adds the python virtual environment to the prompt. Due to color clashing between the official python yellow colors and the github yellow, and between the official python blue and the path blue, I have made the path to a lavender. 
 
 ## How to use in Ubuntu/WSL
