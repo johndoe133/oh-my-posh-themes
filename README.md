@@ -3,6 +3,7 @@ This is just a repo for myself to save the themes that I make and remember how I
 
 # Looks
 It will look like this:
+
 ![image](https://github.com/user-attachments/assets/5f6ae0a9-0bc7-4b39-b417-0f3e9de16187)
 
 
