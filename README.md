@@ -10,6 +10,7 @@ An extension of the emodipt theme which adds the the following things to the pro
 - Changed path style from full (displays entire path) to `agnoster` which displays the first directory (usually ~ for home) and then the final directory
   - Changed the intermediate file icons for the path from .. to an open folder nerd icon
 - Added an icon for the OS at the start of the path
+- Changed the Icon for which bash script type you are using (bash, pwsh, etc.) to have an icon that changes depending on which type you are using, not just the text itself. 
 
 # How to use oh-my-posh
 ## Ubuntu/WSL
