@@ -90,7 +90,7 @@
           {
             "foreground": "#b99abe",
             "properties": {
-              "style": "agnoster_left",
+              "style": "agnoster",
               "folder_icon": "\udb83\uddcf"
             },
             "style": "plain",
