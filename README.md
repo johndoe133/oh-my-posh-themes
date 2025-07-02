@@ -2,10 +2,13 @@
 This is just a repo for myself to save the themes that I make and remember how I use oh-my-posh in WSL and windows terminal and vscode. 
 
 # Looks
-It will look like this:
+It will look like this in bash:
 
 ![image](https://github.com/user-attachments/assets/5f6ae0a9-0bc7-4b39-b417-0f3e9de16187)
 
+And this in pwsh:
+
+![image](https://github.com/user-attachments/assets/9c14d9d3-235e-453b-a9fc-d515be6012d6)
 
 # Themes
 
