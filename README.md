@@ -43,7 +43,7 @@ notepad $PROFILE
 
 Copy paste this into the file:
 ```
-oh-my-posh init pwsh --config "C:\Users\ekjensen\AppData\Local\Programs\oh-my-posh\themes\00-eric-emodipt-extend.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json" | Invoke-Expression
 ```
 
 # Installing and using a nerd font
