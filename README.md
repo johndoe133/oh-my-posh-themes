@@ -2,7 +2,7 @@
 This is just a repo for myself to save the themes that I make and remember how I use oh-my-posh in WSL and windows terminal and vscode. 
 
 ## Overview of steps
-- Install oh-my-posh
+- Install oh-my-posh [here](#
 - Add to your shell (powershell in windows or bash in Ubuntu/WSL Ubuntu) the command to start up oh-my-posh in the desired theme
 - Download the nerd font you want for additional icons
 
@@ -28,8 +28,11 @@ An extension of the emodipt theme which adds the the following things to the pro
 - Added an icon for the OS at the start of the path
 - Changed the Icon for which bash script type you are using (bash, pwsh, etc.) to have an icon that changes depending on which type you are using, not just the text itself. 
 
-# How to use oh-my-posh
-## Installation (Windows)
+# Setting up oh-my-posh
+Guide to setting up oh-my-posh, including installation and startup. 
+
+## Installation
+**Windows**
 Follow [this page](https://ohmypo.sh/docs/installation/windows)
 
 Or just run this command:
@@ -37,26 +40,18 @@ Or just run this command:
 Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
 ```
 
-## Installation (Ubuntu/WSL)
+**Ubuntu/WSL**
 Follow [this page](https://ohmypo.sh/docs/installation/linux)
 
 Or just run this command:
 ```
 curl -s https://ohmyposh.dev/install.sh | bash -s
 ```
-## Ubuntu/WSL
-Add this to your ~/.bashrc file:
-```
-eval "$(oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
-```
+## Enabling oh-my-posh
+If you wish to use a different theme, simply change the link/path to the theme in the instructions below (This value: `https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json`). It can be changed to a path to a file or a URL. 
 
-If you get an error with the path, use `which oh-my-posh` to find the path of oh-my-posh and replace oh-my-posh with the path to it. For example:
+**Powershell**
 
-```
-eval "$(/home/ekj/.local/bin/oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
-```
-
-## Powershell
 use the command 
 
 ```
@@ -66,6 +61,18 @@ notepad $PROFILE
 Copy paste this into the file:
 ```
 oh-my-posh init pwsh --config "https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json" | Invoke-Expression
+```
+
+**Ubuntu/WSL**
+Add this to your ~/.bashrc file:
+```
+eval "$(oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
+```
+
+If you get an error with the path, use `which oh-my-posh` to find the path of oh-my-posh and replace oh-my-posh with the path to it. For example:
+
+```
+eval "$(/home/ekj/.local/bin/oh-my-posh --init --shell bash --config 'https://raw.githubusercontent.com/johndoe133/oh-my-posh-themes/refs/heads/main/themes/python-emodipt-extend.omp.json')"
 ```
 
 # Installing and using a nerd font
