@@ -3,8 +3,8 @@ This is just a repo for myself to save the themes that I make and remember how I
 
 ## Overview of steps
 - Install oh-my-posh [here](#Installation)
-- Add to your shell (powershell in windows or bash in Ubuntu/WSL Ubuntu) the command to start up oh-my-posh in the desired theme
-- Download the nerd font you want for additional icons
+- Add to your shell (powershell in windows or bash in Ubuntu/WSL Ubuntu) the command to start up oh-my-posh in the desired theme [here](#Enabling-oh-my-posh)
+- Download the nerd font you want for additional icons [here](Installing-a-nerd-font)
 
 # Looks
 It will look like this in bash:
