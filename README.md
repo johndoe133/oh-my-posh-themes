@@ -15,6 +15,8 @@ And this in pwsh:
 
 ![image](https://github.com/user-attachments/assets/9c14d9d3-235e-453b-a9fc-d515be6012d6)
 
+Alternatively, you can select a different theme from [here](https://ohmypo.sh/docs/themes) or make your own. 
+
 # Themes
 
 ## python-emodipt-extend (modified)
