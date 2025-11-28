@@ -17,7 +17,7 @@ And this in pwsh:
 
 # Themes
 
-## python-emodipt-extend
+## python-emodipt-extend (modified)
 An extension of the emodipt theme which adds the the following things to the prompt:
 - Python virtual environment in official python blue
 - Changed path to a lavender due to color clash with python virtual environment
@@ -27,6 +27,21 @@ An extension of the emodipt theme which adds the the following things to the pro
 - Changed the Icon for which bash script type you are using (bash, pwsh, etc.) to have an icon that changes depending on which type you are using, not just the text itself. 
 
 # How to use oh-my-posh
+## Installation (Windows)
+Follow [this page](https://ohmypo.sh/docs/installation/windows)
+
+Or just run this command:
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
+```
+
+## Installation (Ubuntu/WSL)
+Follow [this page](https://ohmypo.sh/docs/installation/linux)
+
+Or just run this command:
+```
+curl -s https://ohmyposh.dev/install.sh | bash -s
+```
 ## Ubuntu/WSL
 Add this to your ~/.bashrc file:
 ```
